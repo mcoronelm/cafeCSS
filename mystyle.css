@@ -1,5 +1,5 @@
 body {
-  background-image: url(../assets/img/17.jpg);
+  background-image: url(assets/img/17.jpg);
   /*background-color: rgba(196, 180, 176, 0.788);*/
   text-decoration: none;
 }
@@ -169,3 +169,4 @@ footer a:hover {
 
 .tabla tr:hover {
   background-color: #c7a17a;}
+
