@@ -1,6 +1,7 @@
 body {
-  background-color: rgba(196, 180, 176, 0.788);
-  
+  background-image: url(../assets/img/17.jpg);
+  /*background-color: rgba(196, 180, 176, 0.788);*/
+  text-decoration: none;
 }
 
 .contenedor{
@@ -12,15 +13,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; 
-    margin-top: 1vh;
-    margin-left: 7%;
-    /*text-align: center;*/
+    margin: 1vh auto;
 }
 
 h1 {
   color:#442616;
   margin-left: 20px0;
   text-align: center;
+  background-color: antiquewhite;
 }
 
 h2 {
@@ -43,8 +43,11 @@ p {
 
 aside {
   width: 40%;
+  padding: 4vw;
+  margin: 2vw;
   position: relative;
-  left: 45vw;
+  top: 1vh;
+  float: right;
   border-left: 2px solid #7a4a12;
   font-style: italic;
   color: #442616;
@@ -71,25 +74,32 @@ aside > p {
     margin: auto;
 }
 
+.imagen-float {
+    width: 40%;
+    margin: 15px;
+}
+
+.imagen-izquierda {
+    float: left;
+    margin-left: 30;
+}
+
+.imagen-derecha {
+    float: right;
+    margin-right: 0;
+}
 
 .barra {
     list-style-type: none;
-    /*margin: 0;
-    padding: 0;*/
     overflow: hidden;
     background-color: #975B16;
     position: sticky;
-    /*top: 0;
-    left: 0;
-    z-index: 1000;*/
     display: flex;
     justify-content: center;
 }
 
 .barra ul {
     display: flex;
-    /*margin: 0;
-    padding: 0;*/
     gap: 3vw;
 }
 
@@ -139,3 +149,23 @@ footer a {
 footer a:hover {
     color: #c7a17a;
 }
+
+
+.tabla {
+  margin: auto ;
+  padding: 1vw 1vh;
+  text-align: center;
+}
+
+.tabla th {
+  background-color: #975B16;
+  color: white;
+}
+
+.tabla th, td {
+  padding: 1vw 2vh;
+  text-align: center;
+}
+
+.tabla tr:hover {
+  background-color: #c7a17a;}
